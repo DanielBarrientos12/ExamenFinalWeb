@@ -9,6 +9,7 @@ import java.util.List;
  * The persistent class for the linea database table.
  * 
  */
+
 @Entity
 @NamedQuery(name="Linea.findAll", query="SELECT l FROM Linea l")
 public class Linea implements Serializable {
